@@ -2,7 +2,10 @@
   "name": "marci-metzger-home",
   "private": true,
   "version": "1.0.0",
+<<<<<<< HEAD
   "type": "module",
+=======
+>>>>>>> a5974d5dd68537a51ffd2a1e24c9a084d96792ea
   "description": "Single-page Home redesign for Marci Metzger Homes (MERN: MongoDB, Express, React, Node)",
   "scripts": {
     "install:all": "npm install && npm install --prefix server && npm install --prefix client",
@@ -11,9 +14,12 @@
     "build": "npm run build --prefix client",
     "start": "npm run start --prefix server"
   },
+<<<<<<< HEAD
   "dependencies": {
     "mongoose": "^8.7.0"
   },
+=======
+>>>>>>> a5974d5dd68537a51ffd2a1e24c9a084d96792ea
   "devDependencies": {
     "concurrently": "^9.0.0"
   }

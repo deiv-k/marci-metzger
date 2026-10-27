@@ -27,6 +27,7 @@ Missing files show a labelled placeholder instead of breaking the layout.
 
 ## Responsive
 Mobile-first CSS in `client/src/styles.css`: base (phones), 700px (tablet), 1024px (desktop).
+<<<<<<< HEAD
 
 ## Deploy to Vercel
 
@@ -43,3 +44,5 @@ Make sure `client/public/images` holds `hero.jpg`, `marci.jpg` and the 13 photos
 Or with the command line: `npm i -g vercel`, then `vercel` in this folder, and `vercel --prod` to publish.
 
 MongoDB Atlas: create a free cluster, add a database user, and under Network Access allow `0.0.0.0/0` (Vercel's addresses change).
+=======
+>>>>>>> a5974d5dd68537a51ffd2a1e24c9a084d96792ea
